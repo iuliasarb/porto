@@ -1,12 +1,14 @@
 .navbar {
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border: 0;
-		border-radius: 0;
-		margin-bottom: 0;
-		font-size: 12px;
-		letter-spacing: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
 }
+
+
 body {
 	font: 20px "Montserrat", sans-serif;
 	line-height: 1.8;
@@ -24,7 +26,7 @@ p {
 	color: #fff;
 }
 .bg-2 {
-	background-color: #474e5d;
+	background-color: #db6444;
 	color: #fff;
 }
 .bg-3 {
@@ -36,14 +38,28 @@ p {
 	color: #fff;
 }
 .img-circle {
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 }
 .container-fluid {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
+.btn {
+	color: #fff;
+	background: #db6444;
+	border-color: #db6444;
+}
+.btn:hover {
+	color: #1abc9c;
+	background: #db6444;
+	border-color: #db6444;
+	
+}
 .margin {
 	margin-bottom: 45px;
+}
+.col-md-4 {
+	padding-top: 70px;
 }
 

@@ -62,4 +62,16 @@ p {
 .col-md-4 {
 	padding-top: 70px;
 }
+/* BUTTONS IMAGE GALLERY */
+.btnLightbox {
+	color: #777;
+	background: #fff;
+	border-color: #fff;
+}
+.btnLightbox:hover {
+	color: #1abc9c !important;
+	background: #fff;
+	border-color: #fff;
+}
+
 

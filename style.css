@@ -45,12 +45,18 @@ p {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
+
+/* about section */
+#text{
+	margin: 0 auto;
+	max-width: 90%;	
+}
 .btn {
 	color: #fff;
 	background: #db6444;
 	border-color: #db6444;
 	transition: all 0.5s;
-  cursor: pointer;
+	cursor: pointer;
 }
 .btn:hover, .btn:focus {
 	color: #1abc9c;

@@ -3,11 +3,11 @@ $(function() {
   
  // ===== text rotator ===== 
  var arr = [
-    'I am',
-    'I\'m awesome!',
     'I\'m an explorer',
-    'I\'m just cool',
-    'Don\'t you think?'
+    'I\'m a curious person',
+    'I\'m a dreamer',
+    'I\'m a visionary',
+    'I\'m a stranger'
     ];
   
   $('.rotator')

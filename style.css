@@ -8,7 +8,6 @@
 	letter-spacing: 5px;
 }
 
-
 body {
 	font: 20px "Montserrat", sans-serif;
 	line-height: 1.8;
@@ -24,6 +23,7 @@ p {
 .bg-1 {
 	background-color: #1abc9c;
 	color: #fff;
+	margin-top: 50px;
 }
 .bg-2 {
 	background-color: #db6444;
@@ -64,22 +64,9 @@ p {
 	border-color: #db6444;
 }
 
-.btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+#arrows{
+	vertical-align: -2px;
 }
-
-.btn span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
 .margin {
 	margin-bottom: 45px;
 }
@@ -97,11 +84,18 @@ p {
 	background: #fff;
 	border-color: #fff;
 }
+.linkGallery {
+	color: #555;
+	text-decoration: none;
+}
+.linkGallery:hover {
+	color: #1abc9c;
+	text-decoration: none;
+}
 
 .foo {
 	margin: 0;	
 }
-
 #copyright {
 	margin-top: 30px;
 	font-size: 12px;
